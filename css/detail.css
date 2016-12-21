@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol,dl{
+    list-style: none;
+}
+em,i{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+    vertical-align: top;
+}
+input{
+    outline: none;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+.clearfix{zoom:1}
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #effbff;
+    /*overflow: hidden;*/
+}
+header{
+    width: 100%;
+    height: 3rem;
+    margin: 0 auto;
+    position: relative;
+}
+header img{
+    width: 100%;
+    height: 3rem;
+}
+header>div{
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+header>div>img{
+    width: 0.99rem;
+    height: 0.99rem;
+    float: left;
+    margin: 0.30rem 0.2rem 0.345rem 0.17rem;
+}
+header>div>img,header>div>i,header>div>span{
+    float: left;
+}
+header>div>h4,header>div>b {
+    float: right;
+}
+header>div>i{
+    position: absolute;
+    font-size: 0.26rem;
+    color: #fff;
+    top: 0.45rem;
+}
+header>div>span{
+    position: absolute;
+    font-size: 0.22rem;
+    color: #fff;
+    top: 0.85rem;
+}
+header>div>p{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 1.1rem;
+    font-size: 0.3rem;
+    color: #fff67f;
+}
+header>div>h4{
+    font-size: 0.5rem;
+    color: #ff8961;
+    padding: 0.25rem 0.25rem 0.2rem 0;
+}
+header>div>b{
+    font-size: 0.2rem;
+    color: #fff;
+    position: absolute;
+    right: 0.22rem;
+    top: 1rem;
+}
+header>a{
+    display: block;
+    width: 1.78rem;
+    height: 0.53rem;
+    line-height: 0.53rem;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0.29rem;
+    left: 50%;
+    margin-left: -0.89rem;
+    background: #ff8a63;
+    border-radius: 0.2rem;
+    font-size: 0.24rem;
+}
+.main{
+    width: 100%;
+    height: 2.035rem;
+    line-height: 2.035rem;
+    text-align: center;
+}
+.main span,.main div,.main>div>i{
+    float: left;
+}
+.main span:nth-of-type(1),.main span:nth-of-type(4){
+    width: 1.89rem;
+    height: 0.02rem;
+    background: #ff8a63;
+}
+.main span:nth-of-type(2),.main span:nth-of-type(3){
+    width: 0.09rem;
+    height: 0.09rem;
+    border-radius: 50%;
+    background: #ff8a63;
+}
+.main div{
+    position: relative;
+    height: 0.45rem;
+    width: 1.78rem;
+    background: #ff8a63;
+    border-radius: 0.2rem;
+    margin: 0.85rem 0.14rem 0 0.14rem;
+}
+.main span:nth-of-type(1){
+    margin-left: 0.18rem;
+    margin-top: 1.09rem;
+}
+.main span:nth-of-type(2){
+    margin-top: 1.05rem;
+}
+.main span:nth-of-type(3){
+    margin-top: 1.05rem;
+}
+.main span:nth-of-type(4){
+    margin-top: 1.09rem;
+}
+.main div>i{
+    position: absolute;
+    top: -0.78rem;
+    left: 0.2rem;
+    font-size: 0.16rem;
+    color: #ffffff;
+}

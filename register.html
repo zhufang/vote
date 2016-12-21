@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script>
+        var desW = 640;
+        var winW = document.documentElement.clientWidth;
+        document.documentElement.style.fontSize = winW / desW * 100 + 'px';
+    </script>
+</head>
+<body>
+<header>
+    <img src="img/bgone.png" alt="头部" class="title">
+    <img src="img/title.png" alt="">
+</header>
+<footer>
+    <form action="">
+        <label for="name" minlength="1">用户名:</label>
+        <input type="text" name="name" id="name" placeholder="请填写用户名">
+        <label for="password">密码:</label>
+        <input type="password" name="password" id="password" placeholder="数字或字母不超过10个长度">
+        <label>确认密码:</label>
+        <input type="password" placeholder="数字或字母不超过10个长度">
+        <label>手机号码:</label>
+        <input type="tel" pattern="[0-9]{11}" placeholder="请输入11位手机号">
+        <label>自我描述</label>
+        <input type="text" placeholder="请填写自我描述20字以内" id="describe">
+        <label>性别:</label>
+        <input type="radio" name="sex" value="male" class="sex" checked="checked" id="male"><label for="male" class="clear">男</label>
+        <input type="radio" name="sex" value=famale" class="sex" id="famale">
+        <label class="clear" for="famale">女</label>
+        <button type="button" id="btn">提交</button>
+    </form>
+</footer>
+<script src="js/zepto.min.js"></script>
+<script>
+$('#btn').on('click',function () {
+    console.log($('#name').val());
+})
+</script>
+</body>
+</html>
