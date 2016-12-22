@@ -265,6 +265,7 @@ form input {
 
 /*登录成功页*/
 .login_successful {
+    display: none;
     width: 4.6rem;
     height: 4rem;
     background: #fff;
@@ -276,7 +277,6 @@ form input {
     text-align: center;
     border-radius: 0.16rem;
 }
-
 .login_successful h3 {
     font-size: 0.45rem;
     padding-top: 0.4rem;
