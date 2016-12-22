@@ -1,61 +1,78 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-ul,ol,dl{
+
+ul, ol, dl {
     list-style: none;
 }
-em,i{
+
+em, i {
     font-style: normal;
 }
-b,strong{
+
+b, strong {
     font-weight: normal;
 }
-a{
+
+a {
     text-decoration: none;
 }
-img{
+
+img {
     border: none;
     vertical-align: top;
 }
-input,button,select,textarea{outline:none;}
-.clearfix:after{
+
+input, button, select, textarea {
+    outline: none;
+}
+
+.clearfix:after {
     content: '';
     display: block;
     height: 0;
     clear: both;
     overflow: hidden;
 }
-.clearfix{zoom:1}
-body,html{
+
+.clearfix {
+    zoom: 1
+}
+
+body, html {
     width: 100%;
     height: 100%;
     background: #effbff;
     /*overflow: hidden;*/
     position: relative;
 }
-header{
+
+header {
     width: 100%;
     height: 5.8rem;
     background: #73bef7;
     border-bottom: 1px solid #3ea0e6;
     position: relative;
 }
-header a{
+
+header a {
     color: #105287;
     font-size: 0.26rem;
     position: absolute;
     top: 0.23rem;
     text-decoration: underline;
 }
-header a:nth-of-type(1){
-    left:0.2rem
-}
-header a:nth-of-type(2){
-    right:0.2rem
+
+header a:nth-of-type(1) {
+    left: 0.2rem
 }
 
-header img{
+header a:nth-of-type(2) {
+    right: 0.2rem
+}
+
+header img {
     width: 4.5rem;
     height: 3.2rem;
     position: absolute;
@@ -64,7 +81,8 @@ header img{
     margin-top: -2.3rem;
     margin-left: -2.2rem;
 }
-header div{
+
+header div {
     width: 2.38rem;
     height: 0.64rem;
     background: #ff8a63;
@@ -78,7 +96,8 @@ header div{
     left: 50%;
     margin-left: -1.19rem;
 }
-header form{
+
+header form {
     width: 5.1rem;
     height: 0.63rem;
     position: absolute;
@@ -91,46 +110,55 @@ header form{
     font-size: 0.3rem;
     color: #fff;
 }
-form input{
+
+form input {
     width: 4rem;
     height: 100%;
     margin-right: 0.18rem;
     padding-left: 0.08rem;
 }
-.main{
+
+.main {
     width: 100%;
 }
-.main>div{
+
+.main > div {
     width: 100%;
     height: 1.61rem;
     background: #fff;
     border-bottom: 1px solid #e6e1e5;
     margin-top: 0.08rem;
 }
-.main>div>img{
+
+.main > div > img {
     width: 0.99rem;
     height: 0.99rem;
     float: left;
     margin: 0.30rem 0.2rem 0.345rem 0.17rem;
 }
-.main .content{
+
+.main .content {
     position: relative;
     width: 3.5rem;
     height: 0.74rem;
     float: left;
     margin-top: 0.5rem;
 }
-.content>a{
+
+.content > a {
     font-size: 0.26rem;
 }
-.content>span,.content>p{
+
+.content > span, .content > p {
     font-size: 0.24rem;
     color: #c8c8c8;
 }
-.content>span{
-margin-left: 0.5rem;
+
+.content > span {
+    margin-left: 0.5rem;
 }
-.content>i{
+
+.content > i {
     height: 0.24rem;
     width: 0.01rem;
     background: #c8c8c8;
@@ -138,7 +166,8 @@ margin-left: 0.5rem;
     left: 0.7rem;
     top: 0.04rem;
 }
-.main .float-right{
+
+.main .float-right {
     position: relative;
     float: right;
     width: 1.25rem;
@@ -147,15 +176,18 @@ margin-left: 0.5rem;
     margin-top: 0.31rem;
     padding-right: 0.16rem;
 }
-.float-right>span,.float-right>a{
+
+.float-right > span, .float-right > a {
     display: block;
 }
-.float-right>span{
+
+.float-right > span {
     color: #ff8a63;
     font-size: 0.24rem;
     margin-top: 0.05rem;
 }
-.float-right>a{
+
+.float-right > a {
     width: 1.22rem;
     height: 0.44rem;
     background: #52aaef;
@@ -167,8 +199,10 @@ margin-left: 0.5rem;
     position: absolute;
     bottom: 0;
 }
+
 /*登录页1*/
-.login{
+.login {
+    display: none;
     width: 4.6rem;
     height: 4rem;
     background: #fff;
@@ -178,12 +212,15 @@ margin-left: 0.5rem;
     margin-top: -1.5rem;
     margin-left: -2.3rem;
     text-align: center;
+    border-radius: 0.16rem;
 }
-.login h3{
+
+.login h3 {
     font-size: 0.32rem;
     padding-top: 0.22rem;
 }
-.login form{
+
+.login form {
     width: 3.63rem;
     height: 2.11rem;
     position: absolute;
@@ -191,7 +228,8 @@ margin-left: 0.5rem;
     left: 0.45rem;
     text-align: center;
 }
-.login input{
+
+.login input {
     display: block;
     width: 3.63rem;
     height: 0.49rem;
@@ -199,7 +237,8 @@ margin-left: 0.5rem;
     margin-bottom: 0.24rem;
     border-radius: 0.1rem;
 }
-.login button{
+
+.login button {
     width: 1.32rem;
     height: 0.5rem;
     font-size: 0.26rem;
@@ -207,16 +246,55 @@ margin-left: 0.5rem;
     background: #50aaeb;
     border-radius: 0.2rem;
 }
-.login p{
+
+.login p {
     position: absolute;
     bottom: 0.24rem;
     left: 0.4rem;
 }
-.login p i{
+
+.login p i {
     font-size: 0.24rem;
 }
-.login p a{
+
+.login p a {
     text-decoration: underline;
     font-size: 0.28rem;
     color: #ed937c;
+}
+
+/*登录成功页*/
+.login_successful {
+    width: 4.6rem;
+    height: 4rem;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.5rem;
+    margin-left: -2.3rem;
+    text-align: center;
+    border-radius: 0.16rem;
+}
+
+.login_successful h3 {
+    font-size: 0.45rem;
+    padding-top: 0.4rem;
+    color: #fb524c;
+}
+
+.login_successful i {
+    display: block;
+    font-size: 0.36rem;
+    padding-top: 0.62rem;
+}
+
+.login_successful button {
+    width: 1.32rem;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    color: #fff;
+    background: #50aaeb;
+    border-radius: 0.2rem;
+    margin-top: 0.45rem;
 }
