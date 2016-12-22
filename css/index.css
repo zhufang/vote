@@ -18,9 +18,7 @@ img{
     border: none;
     vertical-align: top;
 }
-input{
-    outline: none;
-}
+input,button,select,textarea{outline:none;}
 .clearfix:after{
     content: '';
     display: block;
@@ -34,6 +32,7 @@ body,html{
     height: 100%;
     background: #effbff;
     /*overflow: hidden;*/
+    position: relative;
 }
 header{
     width: 100%;
@@ -167,4 +166,56 @@ margin-left: 0.5rem;
     line-height: 0.44rem;
     position: absolute;
     bottom: 0;
+}
+.login{
+    width: 4.6rem;
+    height: 4rem;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -1.8rem;
+    margin-left: -2.3rem;
+    text-align: center;
+}
+.login h3{
+    font-size: 0.32rem;
+    padding-top: 0.22rem;
+}
+.login form{
+    width: 3.63rem;
+    height: 2.11rem;
+    position: absolute;
+    top: 0.84rem;
+    left: 0.45rem;
+    text-align: center;
+}
+.login input{
+    display: block;
+    width: 3.63rem;
+    height: 0.49rem;
+    border: 1px solid #a0d5ff;
+    margin-bottom: 0.24rem;
+    border-radius: 0.1rem;
+}
+.login button{
+    width: 1.32rem;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    color: #fff;
+    background: #50aaeb;
+    border-radius: 0.2rem;
+}
+.login p{
+    position: absolute;
+    bottom: 0.24rem;
+    left: 0.4rem;
+}
+.login p i{
+    font-size: 0.24rem;
+}
+.login p a{
+    text-decoration: underline;
+    font-size: 0.28rem;
+    color: #ed937c;
 }
