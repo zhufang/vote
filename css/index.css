@@ -93,9 +93,10 @@ header form{
     color: #fff;
 }
 form input{
-    width: 4.08rem;
+    width: 4rem;
     height: 100%;
     margin-right: 0.18rem;
+    padding-left: 0.08rem;
 }
 .main{
     width: 100%;
